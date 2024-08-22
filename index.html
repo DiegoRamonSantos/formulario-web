@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="web form created with html5, css3 and javascript">
+    <title>Formulario Web</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-title">
+            <h1>cadastro</h1>
+        </div>
+        <form action="#" id="form" class="form">
+            <div class="input-container">
+                <label for="firstname">nome</label>
+                <input type="text" id="firstname" name="firstname" maxlength="500" placeholder="insira seu nome">
+                <span>input mensagem</span>
+            </div>
+            <div class="input-container">
+                <label for="lastname">sobrenome</label>
+                <input type="text" id="lastname" name="lastname" maxlength="500" placeholder="insira seu sobrenome">
+                <span>input mensagem</span>
+            </div>
+            <div class="input-container">
+                <label for="email">email</label>
+                <input type="email" id="email" name="email" placeholder="insira seu email">
+                <span>input mensagem</span>
+            </div>
+            <div class="input-container">
+                <label for="phone">telefone</label>
+                <input type="tel" name="phone" id="phone" placeholder="insira seu numero de telefone">
+                <span>input mensagem</span>
+            </div>
+            <div class="input-container">
+                <label for="birthday">nascimento</label>
+                <input type="date" id="birthday" name="birthday" min="1900-01-01" max="3000-12-31">
+                <span>input mensagem</span>
+            </div>
+            <div class="input-container">
+                <label for="gender">gênero</label>
+                <select name="gender" id="gender">
+                    <option value="select">selecionar gênero</option>
+                    <option value="male">masculino</option>
+                    <option value="female">feminino</option>
+                    <option value="others">outros</option>
+                    <option value="prefer-not-say">prefiro não informar</option>
+                </select>
+                <span>input mensagem</span>
+            </div>
+            <div class="input-container">
+                <label for="password">senha</label>
+                <input type="password" id="password" name="password" placeholder="insira sua senha">
+                <span>input mensagem</span>
+            </div>
+            <div class="input-container">
+                <label for="confirm-password">confirmar senha</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="confirmar senha">
+                <span>input mensagem</span>
+            </div>
+        </form>
+        <div class="btn-group">
+            <button type="submit" form="form" class="btn-submit">enviar</button>
+            <button type="reset" form="form" class="btn-reset">limpar</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
