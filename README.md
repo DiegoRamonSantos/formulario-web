@@ -44,6 +44,10 @@ Aqui está um guia passo a passo para usar o formulário web corretamente:
 
 O design responsivo do formulário garante que ele se adapte perfeitamente a diferentes tamanhos de tela, oferecendo uma experiência de usuário consistente em uma variedade de dispositivos, desde monitores de desktop até smartphones.
 
+## **Acesso** 
+
+- Teste o formulário web em seu dispositivo acessando o seguinte link: https://diegoramonsantos.github.io/formulario-web/
+
 ## **Idioma**
 
 - O idioma padrão utilizado neste projeto: Português-BR.
